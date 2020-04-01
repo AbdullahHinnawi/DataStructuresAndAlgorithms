@@ -19,11 +19,11 @@ public class Queue {
             head= li;
         }else{
             tail.setNext(li);
-            System.out.println(" tail next : " + tail.getNext().getData());
+            System.out.println("tail next: " + tail.getNext().getData());
         }
         tail=li;
         size++;
-        System.out.println("head : " + head.getData() + " tail : " + tail.getData() );
+        System.out.println("head: " + head.getData() + "\ntail: " + tail.getData() );
 
     }
     public ListItem pop(){
