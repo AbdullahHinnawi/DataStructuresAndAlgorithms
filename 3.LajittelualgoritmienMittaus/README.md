@@ -1,2 +1,2 @@
 ## Sorting Algorithms Comparison
-![sortingAlgorithmsComparison](lajitteluAlgoritmienMittaus.png)
+![sortingAlgorithmsComparison](lajittelluAlgoritmienMittaus.png)
