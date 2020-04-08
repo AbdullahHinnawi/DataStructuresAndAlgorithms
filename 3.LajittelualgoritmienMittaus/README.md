@@ -1,2 +1,3 @@
 ## Sorting Algorithms Comparison
-![sortingAlgorithmsComparison](lajittelluAlgoritmienMittaus.png)
+#### Merge Sort | Selection Sort | Quick Sort
+![sortingAlgorithmsComparison](lajittelualgoritmienMittaus.png)
