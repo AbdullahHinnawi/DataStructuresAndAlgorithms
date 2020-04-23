@@ -26,10 +26,11 @@ public class Menu {
 
             System.out.println("\n\t\t\t1. Lisää avain.");
             System.out.println("\t\t\t2. Etsi avaimella.");
-            System.out.println("\t\t\t3. Käy puu läpi esijärjestyksessä.");
-            System.out.println("\t\t\t4. Käy puu läpi jälkijärjestyksessä.");
-            System.out.println("\t\t\t5. Käy puu läpi sisäjärjestyksessä.");
-            System.out.println("\t\t\t6. lopetus ");
+            System.out.println("\t\t\t3. Poista solmu.");
+            System.out.println("\t\t\t4. Käy puu läpi esijärjestyksessä.");
+            System.out.println("\t\t\t5. Käy puu läpi jälkijärjestyksessä.");
+            System.out.println("\t\t\t6. Käy puu läpi sisäjärjestyksessä.");
+            System.out.println("\t\t\t7. lopetus ");
             System.out.print("\n\n"); // tehdään tyhjiä rivejä
             select = Lue.merkki();
             switch (select) {
@@ -48,18 +49,22 @@ public class Menu {
 
                     break;
                 case '3':
+                    data = Lue.rivi();
+                    tree.delete(data);
+                    break;
+                case '4':
                     tree.preOrder();
                     char h = Lue.merkki(); // pysäytetään kontrolli
                     break;
-                case '4':
+                case '5':
                     tree.postOrder();
                     char h2 = Lue.merkki();
                     break;
-                case '5':
+                case '6':
                     tree.inOrder();
                     char h3 = Lue.merkki();
                     break;
-                case '6':
+                case '7':
                     break;
 
 
