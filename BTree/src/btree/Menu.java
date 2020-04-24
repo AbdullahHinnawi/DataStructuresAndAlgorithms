@@ -44,6 +44,7 @@ public class Menu {
                     data = Lue.rivi();
                     if (tree.find(data) != null) {
                         System.out.println("Avain löytyi.");
+                        System.out.println("Solmusta " + data  + " avautuvan alipuun korkeus on " +  (tree.maxHeight(tree.find(data))-1));
                     } else
                         System.out.println("Avainta ei löytynyt.");
 

@@ -27,8 +27,10 @@ public class BinaryTree {
     
     public void insert(String aData){
 
+        int height;
         if(root == null){
             root = new Node(aData);
+
         }else{
             // compareTo: Compares two strings lexicographically.
             // lexicographic = lexicographical order = dictionary order = alphabetical order
@@ -58,6 +60,7 @@ public class BinaryTree {
                    }
            }
         }
+
         
     }
     
@@ -165,9 +168,23 @@ public class BinaryTree {
 
     }
 
+    // To get the height of a tree
+    public int maxHeight(BinaryTree tree){
+        if(tree != null){
+            int leftHeight = maxHeight(tree.getRoot().left());
+            int rightHeight = maxHeight(tree.getRoot().right());
+            if(leftHeight > rightHeight){
+                return leftHeight+1;
+            }else{
+                return rightHeight+1;
+            }
+        }
+        return 0;
+    }
+
     public void preOrder() {
         if (root != null) {
-            System.out.println(root.getData()+',');
+            System.out.println(root.getData()+ ", solmusta avautuvan alipuun korkeus on " + (maxHeight(find(root.getData()))-1));
             if (root.left() != null) // pääseeekö vasemmalle?
                 root.left().preOrder();
             if (root.right() != null) // pääseekö oikealle?
@@ -182,7 +199,7 @@ public class BinaryTree {
                 root.left().postOrder();
             if (root.right() != null) // pääseekö oikealle?
                 root.right().postOrder();
-            System.out.println(root.getData()+',');
+            System.out.println(root.getData()+ ", solmusta avautuvan alipuun korkeus on " + (maxHeight(find(root.getData()))-1));
         }
 
     }
@@ -192,7 +209,7 @@ public class BinaryTree {
 
             if (root.left() != null) // pääseeekö vasemmalle?
                 root.left().inOrder();
-            System.out.println(root.getData()+',');
+            System.out.println(root.getData()+ ", solmusta avautuvan alipuun korkeus on " + (maxHeight(find(root.getData()))-1));
             if (root.right() != null) // pääseekö oikealle?
                 root.right().inOrder();
         }
