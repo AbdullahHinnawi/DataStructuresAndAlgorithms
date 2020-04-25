@@ -10,4 +10,6 @@
 
 ### # [LinkedList Stack](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/6.LinkedListStack/src/stackproject)
 
-### # [Binary Search Tree](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/BTree/src/btree)
+### # [Binary Tree](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/BTree/src/btree)
+
+### # [Binary Search](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/BinarySearch/src/binarysearch)
