@@ -14,4 +14,4 @@
 
 ### # [Binary Search](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/BinarySearch/src/binarysearch)
 
-### # [Min Heap](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/Heap/src/heap)
+### # [Heap (Min Heap)](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/Heap/src/heap)
