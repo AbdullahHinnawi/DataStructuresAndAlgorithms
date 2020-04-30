@@ -15,3 +15,5 @@
 ### # [Binary Search](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/BinarySearch/src/binarysearch)
 
 ### # [Heap (Min Heap)](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/Heap/src/heap)
+
+### # [Closed Hashing](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/ClosedHashing/src/closedhashing)
