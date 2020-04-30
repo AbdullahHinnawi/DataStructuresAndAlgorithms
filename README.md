@@ -17,3 +17,5 @@
 ### # [Heap (Min Heap)](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/Heap/src/heap)
 
 ### # [Closed Hashing](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/ClosedHashing/src/closedhashing)
+
+### # [Postfix Calculator](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/PostfixCalculator/src)
