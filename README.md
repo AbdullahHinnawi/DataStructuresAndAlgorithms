@@ -19,3 +19,5 @@
 ### # [Closed Hashing](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/ClosedHashing/src/closedhashing)
 
 ### # [Postfix Calculator](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/PostfixCalculator/src)
+
+### # [TreeSet](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/TreeSet/src/treeset)
