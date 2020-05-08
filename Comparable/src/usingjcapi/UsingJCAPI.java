@@ -45,6 +45,32 @@ public class UsingJCAPI {
         while (itr2.hasNext()) {
             System.out.println(itr2.next());
         }
+        System.out.println("");
+
+
+        // Sort travel cards by balance using BalanceComparator.java
+        System.out.println("Travel cards sorted by balance: ");
+        Collections.sort(cardUsers, new BalanceComparator());
+        Iterator itr3 = cardUsers.iterator();
+        while (itr3.hasNext()) {
+            System.out.println(itr3.next());
+        }
+        System.out.println("");
+
+
+        // Sort travel cards by name using NameComparator.java
+        System.out.println("Travel cards sorted by name: ");
+        Collections.sort(cardUsers, new NameComparator());
+        Iterator itr4 = cardUsers.iterator();
+        while (itr4.hasNext()) {
+            System.out.println(itr4.next());
+        }
+
+
+
+
+
+
     }
     
 }
