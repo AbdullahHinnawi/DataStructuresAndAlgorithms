@@ -25,6 +25,7 @@ public class UsingJCAPI {
         float genBalance;
         TrafficCard myCard;
         Random r = new Random();
+        Iterator itr;
         int i;
         for (i = 0; i < 10; i++) {
             genBalance = ((float) r.nextInt(1000) / 10);
@@ -32,7 +33,7 @@ public class UsingJCAPI {
             cardUsers.add(myCard);
         }
         System.out.println("Travel cards without sorting:");
-        Iterator itr = cardUsers.iterator();
+        itr = cardUsers.iterator();
         while (itr.hasNext()) {
             System.out.println(itr.next());
         }
@@ -41,9 +42,9 @@ public class UsingJCAPI {
         // Sort travel cards by number using TrafficCard compareTo(Object o) method
         System.out.println("Travel cards sorted by number: ");
         Collections.sort(cardUsers);
-        Iterator itr2 = cardUsers.iterator();
-        while (itr2.hasNext()) {
-            System.out.println(itr2.next());
+        itr = cardUsers.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
         }
         System.out.println("");
 
@@ -51,9 +52,9 @@ public class UsingJCAPI {
         // Sort travel cards by balance using BalanceComparator.java
         System.out.println("Travel cards sorted by balance: ");
         Collections.sort(cardUsers, new BalanceComparator());
-        Iterator itr3 = cardUsers.iterator();
-        while (itr3.hasNext()) {
-            System.out.println(itr3.next());
+        itr = cardUsers.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
         }
         System.out.println("");
 
@@ -61,16 +62,33 @@ public class UsingJCAPI {
         // Sort travel cards by name using NameComparator.java
         System.out.println("Travel cards sorted by name: ");
         Collections.sort(cardUsers, new NameComparator());
-        Iterator itr4 = cardUsers.iterator();
-        while (itr4.hasNext()) {
-            System.out.println(itr4.next());
+        itr = cardUsers.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
         }
+        System.out.println("");
+
+
+        // Tehtävä 21
+        // Sort travel cards by number using Lambda
+        Collections.sort(cardUsers, (o1,o2) -> {
+            TrafficCard card2 = o2;
+            return o1.mTravellerNumber - card2.mTravellerNumber;});
+        System.out.println("Travel cards sorted by number using Lambda: ");
+        itr = cardUsers.iterator();
+        while (itr.hasNext()) {
+            System.out.println(itr.next());
+        }
+        System.out.println("");
 
 
 
-
-
-
+        // Tehtävä 22 Tietovirran käyttö
+        System.out.println("Travel cards sorted by number >= 25 and balance > 30: ");
+        cardUsers.stream()
+                .filter(trafficCard -> trafficCard.mTravellerNumber >= 25)
+                .filter(trafficCard -> trafficCard.mBalance > 30)
+                .forEach(e -> System.out.println(e.toString()));
     }
     
 }
