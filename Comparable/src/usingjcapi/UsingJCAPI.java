@@ -71,9 +71,7 @@ public class UsingJCAPI {
 
         // Tehtävä 21
         // Sort travel cards by number using Lambda
-        Collections.sort(cardUsers, (o1,o2) -> {
-            TrafficCard card2 = o2;
-            return o1.mTravellerNumber - card2.mTravellerNumber;});
+        Collections.sort(cardUsers, (o1,o2) -> (int)(o1.mTravellerNumber - o2.mTravellerNumber));
         System.out.println("Travel cards sorted by number using Lambda: ");
         itr = cardUsers.iterator();
         while (itr.hasNext()) {
