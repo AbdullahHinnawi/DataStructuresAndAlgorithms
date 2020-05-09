@@ -81,7 +81,7 @@ public class UsingJCAPI {
 
 
 
-        // Tehtävä 22 Tietovirran käyttö
+        // Tehtävä 22 Lambda-lausekkeen käyttö tietovirran yhteydessä
         System.out.println("Travel cards sorted by number >= 25 and balance > 30: ");
         cardUsers.stream()
                 .filter(trafficCard -> trafficCard.mTravellerNumber >= 25)
