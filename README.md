@@ -1,27 +1,27 @@
 # Data Structures & Algorithms
 
-### # [Stack](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/StackProject/src/stackproject)
+### # [Stack](https://github.com/AbdullahHinnawi/DataStructuresAndAlgorithms/tree/master/StackProject/src/stackproject)
 
-### # [Queue](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/QueueProject/src/queueproject)
+### # [Queue](https://github.com/AbdullahHinnawi/DataStructuresAndAlgorithms/tree/master/QueueProject/src/queueproject)
 
-### # [Sorting Algorithms Comparison](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/3.LajittelualgoritmienMittaus)
+### # [Sorting Algorithms Comparison](https://github.com/AbdullahHinnawi/DataStructuresAndAlgorithms/tree/master/3.LajittelualgoritmienMittaus)
 
-### # [Stack Iterator](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/5.StackIterator/src/stackiterator)
+### # [Stack Iterator](https://github.com/AbdullahHinnawi/DataStructuresAndAlgorithms/tree/master/5.StackIterator/src/stackiterator)
 
-### # [LinkedList Stack](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/6.LinkedListStack/src/stackproject)
+### # [LinkedList Stack](https://github.com/AbdullahHinnawi/DataStructuresAndAlgorithms/tree/master/6.LinkedListStack/src/stackproject)
 
-### # [Binary Tree](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/BTree/src/btree)
+### # [Binary Tree](https://github.com/AbdullahHinnawi/DataStructuresAndAlgorithms/tree/master/BTree/src/btree)
 
-### # [Binary Search](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/BinarySearch/src/binarysearch)
+### # [Binary Search](https://github.com/AbdullahHinnawi/DataStructuresAndAlgorithms/tree/master/BinarySearch/src/binarysearch)
 
-### # [Heap (Min Heap)](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/Heap/src/heap)
+### # [Heap (Min Heap)](https://github.com/AbdullahHinnawi/DataStructuresAndAlgorithms/tree/master/Heap/src/heap)
 
-### # [Closed Hashing](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/ClosedHashing/src/closedhashing)
+### # [Closed Hashing](https://github.com/AbdullahHinnawi/DataStructuresAndAlgorithms/tree/master/ClosedHashing/src/closedhashing)
 
-### # [Postfix Calculator](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/PostfixCalculator/src)
+### # [Postfix Calculator](https://github.com/AbdullahHinnawi/DataStructuresAndAlgorithms/tree/master/PostfixCalculator/src)
 
-### # [TreeSet](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/TreeSet/src/treeset)
+### # [TreeSet](https://github.com/AbdullahHinnawi/DataStructuresAndAlgorithms/tree/master/TreeSet/src/treeset)
 
-### # [MyBTreeVsTreeSet](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/MyBTreeVsTreeSet/src/)
+### # [MyBTreeVsTreeSet](https://github.com/AbdullahHinnawi/DataStructuresAndAlgorithms/tree/master/MyBTreeVsTreeSet/src)
 
-### # [Comparable](https://gitlab.com/AbdullahHinnawi/datastructuresandalgorithms/-/tree/master/Comparable/src/usingjcapi)
+### # [Comparable](https://github.com/AbdullahHinnawi/DataStructuresAndAlgorithms/tree/master/Comparable/src/usingjcapi)
